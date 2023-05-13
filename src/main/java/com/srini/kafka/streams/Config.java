@@ -39,6 +39,12 @@ public class Config {
         return props ;
     }
 
+    /**
+     * Admin client admin client.
+     *
+     * @param adminProps the admin props
+     * @return the admin client
+     */
     @Bean
     public AdminClient adminClient(Properties adminProps){
         return AdminClient.create(adminProps) ;
