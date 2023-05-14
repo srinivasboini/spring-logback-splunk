@@ -11,7 +11,9 @@ kafka:
     schemaAuthInfo: ${SR_API_KEY}:${SR_API_SECRET}
 server:
   port: 0
-
+splunk:
+  server: ${SPLUNK_SERVER}
+  token: ${SPLUNK_TOKEN}
 #logging:
 #  level:
 #    org.springframework.kafka: DEBUG
